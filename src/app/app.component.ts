@@ -2,9 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `
+    <friends-list></friends-list>
+  `
 })
-export class AppComponent {
-  title = 'angular-binding-demo';
-}
+export class AppComponent {}
